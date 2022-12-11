@@ -7,8 +7,6 @@
  *
  ** it is positive, negative, or zero.
  *
- **
- *
  ** Return: Always 0.
  *
  *      
