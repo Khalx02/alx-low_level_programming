@@ -2,27 +2,20 @@
 /**
  *  * main - entry point
  *
- *  * Description: Print all single digit numbers of base 10
- *
- *  * starting from 0, followed by a new line.
+ *  * Description: Print the lower and upper alphabet on the same line
  *
  *  * Return: 0
  *
- *       
+ *
  */
 int main(void)
 {
-	int c = 0;
+	int c;
 
-	while (c < 10)
-	{
-		putchar(48 + c);
-		if (c != 9)
-		{
-			putchar(',');
-		}
-		c++;
-	}
+	for (c = 0; c < 26; ++c)
+		putchar('a' + c);
+	for (c = 0; c < 26; ++c)
+		putchar('A' + c);
 	putchar('\n');
 	return (0);
 }
