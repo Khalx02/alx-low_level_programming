@@ -1,14 +1,11 @@
 #include "main.h"
 /**
- *  * main-main block
+ *  * main-prpgram to print using _putchar
  *
- *  * Description:print -putchar in a new line
- *
- *  * Return:this program return zero
- *
- *
+ *  * Return:return 0 when successful
  */
 int main(void)
+
 {
 	_putchar('_');
 	_putchar('p');
