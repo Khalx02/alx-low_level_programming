@@ -9,9 +9,8 @@
 int _abs(int n)
 
 {
-	if (1){
+	if (n=1)
 		return (1);
-	}else{
+	else
 		return (0);
-}
 }
