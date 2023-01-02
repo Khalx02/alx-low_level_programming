@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- *  * _abs - Computes the absolute value of an integer.
+ * _abs - Computes the absolute value of an integer.
  *
- *   * @c: The integer to be computed.
+ * @c: The integer to be computed.
  *
  * Return: The absolute value of the integer.
  */
