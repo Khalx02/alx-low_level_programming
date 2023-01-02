@@ -29,5 +29,5 @@
 	}
 	a++;
 	}
-	return (a);
+	return (s);
 }
