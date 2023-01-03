@@ -10,7 +10,7 @@
 *
 */
 
- unsigned int _strspn(char *s, char *f)
+ unsigned int _strspn(char *s, char *accept)
 
 {
 
