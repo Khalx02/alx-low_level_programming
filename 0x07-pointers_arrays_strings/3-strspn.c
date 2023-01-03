@@ -10,7 +10,7 @@
 *
 */
 
- unsigned int _strspn(char *s, char *accept)
+ unsigned int _strspn(char *s, char *f)
 
 {
 
@@ -29,5 +29,5 @@
 	}
 	a++;
 	}
-	return (c);
+	return (t);
 }
